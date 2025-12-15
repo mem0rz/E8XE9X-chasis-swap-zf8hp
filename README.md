@@ -78,25 +78,32 @@ _涉及密封和紧固，严禁使用旧件_
 - **M_LIN:** 退针重插 黄蓝（pin7） **-> Pin4**
 - **S_SP:** 退针重插 黄白（Pin9）-> pin10
 - **剩下的都包好**
+<img width="521" height="520" alt="图片" src="https://github.com/user-attachments/assets/3fa9352a-8072-408e-b0e2-31cf26bf76d3" /><img width="510" height="526" alt="图片" src="https://github.com/user-attachments/assets/a05b0988-f9d0-4a22-8026-bd0d1893f9cb" />
+
 
 **左边是老的，右边是新的**
 
 1.  **电子挡把接线**
 
 拆掉原挡把，找出电子挡把其中3根线可以就近接在原来挡把排线，另外有1对+1根需要走到继电器盒子JBE：
+<img width="734" height="422" alt="图片" src="https://github.com/user-attachments/assets/9a9627a6-5a16-48c9-a0d7-2e64a76f3f03" />
 
 **（截短到合适长度。）**
+<img width="565" height="326" alt="图片" src="https://github.com/user-attachments/assets/4a669dfd-ff28-475a-903b-2e020ab237c0" />
 
 - **①供电：X9944 红/黄色线 pin5 ->档把座 供电 (Pin1 原红色)**
     - **操作：挡把底座尾线pin1退针丢掉，X9944的pin5红色退针放入挡把座的pin1**
+<img width="737" height="427" alt="图片" src="https://github.com/user-attachments/assets/99e0e064-f094-480e-b008-eb2b610a70e5" />
 
 - **②GND：X14275棕线pin4->档把座 接地 (Pin 6)**
     - **操作：** X14275的pin1黑色和pin4棕色退针后并线重打放入**挡把座的**pin6。
+<img width="273" height="299" alt="图片" src="https://github.com/user-attachments/assets/ae8e3ab4-d109-4106-9664-8cdd8cee2952" />
 
 - ③**M_Lin:X9944的蓝白色线pin6 ->M_lin线 (Pin 2)**
     - **操作：**X9944的pin6白蓝退针放入**挡把座**pin2。
 - **④ CAN 总线 (Pin 3 & 4) -> JBE x14271**
     - **操作：** 在 JBE **X14271** 插头处并联。
+<img width="709" height="407" alt="图片" src="https://github.com/user-attachments/assets/ed5e8854-3099-4d08-a1d8-a5017723a034" />
 
 （白红/蓝红双绞线）放一组双绞线到这里，另外一组到左边驾驶位OBD附近留着（线头包好不露铜即可，不用特别严实）
 
@@ -105,12 +112,14 @@ _涉及密封和紧固，严禁使用旧件_
 - ⑤ **wup15线 (Pin 5) -> JBE X14272**
     - **操作：**pin50绿/红色退针，过来的wup线（pin5橙绿）一起并线重新打头
 - ⑥ **拨片**
+<img width="565" height="326" alt="图片" src="https://github.com/user-attachments/assets/a924121d-191b-4ea9-b5f6-971f7c2ddef2" />
 
 - - **X1561 插头** 的 **Pin 2**(蓝黄双色线)退针包好。
     - **X1561 插头** 的pin1和pin3用两头公针连接起来-------------------///\*\*\*\*///
     - **X14272 插头的 pin35退针 加 X14271的pin38退针**
     - **Pin35和pin38之间加一根红黄线重打塞回**
-- **⑦ 预留**
+- **⑦ 预留**（openpilot项目用，不搞openpilot的不用看）
+<img width="709" height="407" alt="图片" src="https://github.com/user-attachments/assets/f0bc5b5a-d308-4419-a91a-5b6b8763b6db" />
 
 - - **15WUP： X14272 插头** 的 **Pin 50**(绿黄双色线)和新的橙绿线并线包好。新的橙绿线走到驾驶位门旁藏好（线头包好不露铜即可，不用特别严实）
     - KCAN: **X14272 插头** 的PIN11（橙绿）和pin30(绿色)退针，和新的橙棕和绿双绞线并线重新打头放回去。（双色对双色，单色对单色）新的双绞线走到驾驶位门旁藏好（线头包好不露铜即可，不用特别严实）
@@ -164,21 +173,26 @@ _涉及密封和紧固，严禁使用旧件_
 - 插上变速箱到发动机主线束。
 
 1.  **电子挡把接线 安排电工来接**
-
+<img width="709" height="407" alt="图片" src="https://github.com/user-attachments/assets/f82beea3-4d35-4f3a-afc9-18e5e7d0a360" />
 拆掉原挡把，找出电子挡把其中3根线可以就近接在原来挡把排线，另外有1对+1根（初期做好的）需要走到继电器盒子JBE：
 
 **（截短到合适长度。）**
 
+<img width="565" height="326" alt="图片" src="https://github.com/user-attachments/assets/943e1c70-29d5-4039-a80d-c226ca0acb8c" />
+
 - **①供电：X9944 红/黄色线 pin5 ->档把座 供电 (Pin1 原红色)**
     - **操作：挡把底座尾线pin1退针丢掉，X9944的pin5红色退针放入挡把座的pin1**
+<img width="737" height="427" alt="图片" src="https://github.com/user-attachments/assets/91f0d3a9-10ea-457e-b9fd-44bce78dfbec" />
 
 - **②GND：X14275棕线pin4->档把座 接地 (Pin 6)**
     - **操作：** X14275的pin1黑色和pin4棕色退针后并线重打放入**挡把座的**pin6。
+<img width="273" height="299" alt="图片" src="https://github.com/user-attachments/assets/2dd88559-438d-4d4a-89a4-7567a702a27d" />
 
 - ③**M_Lin:X9944的蓝白色线pin6 ->M_lin线 (Pin 2)**
     - **操作：**X9944的pin6白蓝退针放入**挡把座**pin2。
 - **④ CAN 总线 (Pin 3 & 4) -> JBE x14271**
     - **操作：** 在 JBE **X14271** 插头处并联。
+<img width="709" height="407" alt="图片" src="https://github.com/user-attachments/assets/48bf4a36-ad1b-48f1-902c-867f811ef376" />
 
 （白红/蓝红双绞线）放一组双绞线到这里，另外一组到左边驾驶位OBD附近留着（线头包好不露铜即可，不用特别严实）
 
@@ -187,11 +201,13 @@ _涉及密封和紧固，严禁使用旧件_
 - ⑤ **wup15线 (Pin 5) -> JBE X14272**
     - **操作：**pin50绿/红色退针，过来的wup线（pin5橙绿）一起并线重新打头
 - ⑥ **拨片**
+<img width="565" height="326" alt="图片" src="https://github.com/user-attachments/assets/a80e5810-f516-4421-a058-81436e9313f0" />
 
 - - **X1561 插头** 的 **Pin 2**(蓝黄双色线)退针包好。
     - **X14272 插头的 pin35退针 加 X14271的pin38退针**
     - **Pin35和pin38之间加一根红黄线重打塞回**
 - **⑦ 预留**
+<img width="709" height="408" alt="图片" src="https://github.com/user-attachments/assets/531f0273-b097-4f24-8363-81789096f282" />
 
 - - **15WUP： X14272 插头** 的 **Pin 50**(绿黄双色线)和新的橙绿线并线包好。新的橙绿线走到驾驶位门旁藏好（线头包好不露铜即可，不用特别严实）
     - KCAN: **X14272 插头** 的PIN11（橙绿）和pin30(绿色)退针，和新的橙棕和绿双绞线并线重新打头放回去。（双色对双色，单色对单色）新的双绞线走到驾驶位门旁藏好（线头包好不露铜即可，不用特别严实）
@@ -217,9 +233,26 @@ _涉及密封和紧固，严禁使用旧件_
 - 拆除机械钢缆、旧线束。
 - 安装传动轴。尝试松开原车传动轴中间的大螺母，缩短上面计算出的轴身（不要肉眼判断），看能否直接安装。
 - 更换变速箱和发动机之间的螺丝，新螺丝装回变速箱（M10\*30 20Nm+角度100度，M10\*85 20Nm+角度190度，M12 25Nm+角度130度）
+<img width="900" height="346" alt="图片" src="https://github.com/user-attachments/assets/1d718b6b-a1a5-4c24-9055-e40883279766" />
 
 1.  **电子挡把最终接线**
 2.  **完工**
 
 - 装回内饰，路试10-50km
 - 更换变速箱油底壳以及加注新油。（40度检查液位）。
+- 淘宝购买手动挡挡把，然后重新缝制适合新的挡把。
+
+
+参考图：
+<img width="3111" height="1757" alt="图片" src="https://github.com/user-attachments/assets/23888cf2-f27d-4d5d-aa1a-96aeeb4fe20b" />
+<img width="3112" height="1763" alt="图片" src="https://github.com/user-attachments/assets/06ebaecb-f3e5-4d89-866c-a96d736ae434" />
+<img width="3117" height="1774" alt="图片" src="https://github.com/user-attachments/assets/43ff3992-c58b-42fe-bf57-11217eea7342" />
+<img width="3124" height="1783" alt="图片" src="https://github.com/user-attachments/assets/f941ea40-f744-4d68-98ff-a49d8ae9b208" />
+<img width="3119" height="1773" alt="图片" src="https://github.com/user-attachments/assets/777663b2-eaef-408b-9ab9-8a5dc948d326" />
+<img width="3126" height="1763" alt="图片" src="https://github.com/user-attachments/assets/d7ea27bf-18f3-435c-b1c0-a68e0f2b9b6e" />
+
+
+
+
+
+
