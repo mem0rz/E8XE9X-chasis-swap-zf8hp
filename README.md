@@ -1,5 +1,6 @@
 # E8XE9X-chasis-swap-zf8hp
 E8X E9X CHASIS swap zf8hp45
+感谢bimmerpost论坛以及alexnaoumov（对原帖进行了细化https://www.e90post.com/forums/showthread.php?p=32266429）
 **📘 E87 130i + ZF 8HP45 移植终极施工手册 (全细节版)**
 
 **第一部分：终极采购清单 (Master Shopping List)**
