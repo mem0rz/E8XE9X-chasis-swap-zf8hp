@@ -115,7 +115,6 @@ _涉及密封和紧固，严禁使用旧件_
 - ⑥ **拨片**
 <img width="565" height="326" alt="图片" src="https://github.com/user-attachments/assets/a924121d-191b-4ea9-b5f6-971f7c2ddef2" />
 
-- - **X1561 插头** 的 **Pin 2**(蓝黄双色线)退针包好。
     - **X1561 插头** 的pin1和pin3用两头公针连接起来-------------------///\*\*\*\*///
     - **X14272 插头的 pin35退针 加 X14271的pin38退针**
     - **Pin35和pin38之间加一根红黄线重打塞回**
@@ -204,9 +203,8 @@ _涉及密封和紧固，严禁使用旧件_
 - ⑥ **拨片**
 <img width="565" height="326" alt="图片" src="https://github.com/user-attachments/assets/a80e5810-f516-4421-a058-81436e9313f0" />
 
-- - **X1561 插头** 的 **Pin 2**(蓝黄双色线)退针包好。
     - **X14272 插头的 pin35退针 加 X14271的pin38退针**
-    - **Pin35和pin38之间加一根红黄线重打塞回**
+    - **x14272Pin35和x14271pin38之间加一根红黄线重打塞回**
 - **⑦ 预留**
 <img width="709" height="408" alt="图片" src="https://github.com/user-attachments/assets/531f0273-b097-4f24-8363-81789096f282" />
 
